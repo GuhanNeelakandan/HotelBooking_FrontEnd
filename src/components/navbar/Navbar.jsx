@@ -19,9 +19,7 @@ const Navbar = () => {
         {
           user ? <><div>Hi <span className="username">{user.username}</span> ! Welcome</div><button className="logout" onClick={handleLogout}>Logout</button></> : (
             <div className="navItems">
-              <Link to={'/admin'}>
-                <button className="navButton">Admin</button>
-              </Link>
+                <a href="https://hotelbooking-admincontrol.netlify.app/" target="_blank" className="admin-link">Admin</a>
               <Link to={'/register'}>
                 <button className="navButton">Register</button>
               </Link>
