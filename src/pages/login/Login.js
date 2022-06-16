@@ -52,7 +52,7 @@ const Login = () => {
                 </button>
                 <p className='register'>Do you have Account? <Link to={'/register'}>SignIn</Link></p>
                 <div className='register'>UserName:test</div>
-                <div className='register'>password: 123456</div>
+                <div className='register'>password: 12345678</div>
                 {error && <span style={{color: "greenyellow",fontWeight:900}}>{error.message}</span>}
             </div>
         </div>
